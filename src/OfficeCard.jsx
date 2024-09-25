@@ -14,7 +14,9 @@ const OfficeCard = () => {
           </div>
 
           <p className="text-gray-600 mb-8">
-            D31, Neo Logistic Park, Opposite to Lodha Industrial Park, Mumbai, India.
+          Near Orchid Tower, Ground Floor, Room No.04, B-wing,
+ Zaitun Baug, Talavpali Road, Kausa, Mumbra, Kalyan,
+ Thane, Maharashtra, 400612.
           </p>
 
           <a

@@ -18,7 +18,6 @@ const AboutPage = () => {
         heading="ABOUT MOULD TECK"
         subheading="Innovative Manufacturing Solutions"
         description1="Welcome to MOULD TECK, a leading injection mold manufacturer dedicated to delivering exceptional quality and innovation. With a strong focus on design, development, and production, we create high-performance molds for various industries.
-
 We leverage state-of-the-art technology and a team of skilled professionals to provide tailored solutions that meet our clients' unique needs. From concept to production, we prioritize superior quality and efficiency.
 
 "
