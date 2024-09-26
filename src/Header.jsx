@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       {/* Navbar */}
-      <header className="fixed top-0 left-0 w-full bg-white bg-opacity-40 z-10">
+      <header className="fixed top-0 left-0 w-full bg-white bg-opacity-40 z-50"> {/* Increased z-index */}
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo */}
           <div className="text-3xl font-bold text-black">
@@ -22,8 +22,8 @@ const Header = () => {
             />
           </div>
 
-          {/* Hamburger Menu Button */}
-          <div className="md:hidden"> {/* Show only on mobile (smaller than 'md') */}
+          {/* Hamburger Icon - use lg-custom instead of lg */}
+          <div className="lg-custom:hidden"> 
             <button onClick={toggleMenu} className="text-black focus:outline-none">
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -31,8 +31,8 @@ const Header = () => {
             </button>
           </div>
 
-          {/* Navbar Links (show only on medium screens and above) */}
-          <div className="hidden md:flex space-x-6">
+          {/* Main Menu - use lg-custom instead of lg */}
+          <div className="hidden lg-custom:flex space-x-6">
             <Link to="/" className="text-black hover:text-yellow-500">Home</Link>
             <Link to="/about" className="text-black hover:text-yellow-500">About</Link>
             <Link to="/services" className="text-black hover:text-yellow-500">Services</Link>
@@ -45,7 +45,7 @@ const Header = () => {
 
         {/* Mobile Menu (visible when hamburger is clicked) */}
         {isOpen && (
-          <div className="md:hidden bg-white bg-opacity-90 z-10">
+          <div className="lg-custom:hidden bg-white bg-opacity-90 z-50"> {/* Increased z-index */}
             <div className="flex flex-col space-y-4 px-6 py-4">
               <Link to="/" className="text-black hover:text-yellow-500" onClick={toggleMenu}>Home</Link>
               <Link to="/about" className="text-black hover:text-yellow-500" onClick={toggleMenu}>About</Link>
