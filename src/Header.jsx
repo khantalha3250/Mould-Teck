@@ -31,7 +31,7 @@ const Header = () => {
             </button>
           </div>
 
-          {/* Navbar Links (visible on larger screens) */}
+          {/* Navbar Links (show only on medium screens and above) */}
           <div className="hidden md:flex space-x-6">
             <Link to="/" className="text-black hover:text-yellow-500">Home</Link>
             <Link to="/about" className="text-black hover:text-yellow-500">About</Link>
