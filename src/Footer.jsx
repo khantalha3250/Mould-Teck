@@ -34,7 +34,8 @@ const Footer = () => {
           {/* Middle Section: Company Description */}
           <div className="flex items-center justify-center md:justify-start">
             <p className="text-white text-sm max-w-md text-center md:text-left">
-              MOULD TECK, a Switzerland-based plastic injection company, delivers Integrated Manufacturing Solutions to global OEMs, product companies, and leading brands with advanced technical capabilities and industry expertise.
+              MOULD TECK, a leading injection mold manufacturer dedicated to delivering exceptional quality and innovation. With a strong focus on design, development, and production, we create high-performance molds for various industries.
+
             </p>
           </div>
 

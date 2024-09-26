@@ -3,17 +3,17 @@ import React from 'react';
 const Testimonials = () => {
   return (
     <div className="flex justify-center">
-      <div className="w-4/5 mt-[15vh] mb-0">
+      <div className="w-full max-w-4xl px-4 mt-[15vh] mb-0">
         <h2 className="text-center text-gray-700 text-sm uppercase tracking-wide">Client Testimonials</h2>
         <h1 className="text-center text-4xl font-bold my-4">WHAT OUR CLIENTS SAY</h1>
-        <p className="text-center text-gray-500 text-lg">
+        <p className="text-center text-gray-500 text-lg px-2">
           Read testimonials from our satisfied partners who have experienced the exceptional service and quality
           of MOULD TECK.
         </p>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Testimonial 1 */}
-          <div className="text-center">
+          <div className="text-center p-4 bg-white shadow-md rounded-lg">
             <div className="flex justify-center">
               <span className="text-yellow-500 text-2xl">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
             </div>
@@ -35,7 +35,7 @@ const Testimonials = () => {
           </div>
 
           {/* Testimonial 2 */}
-          <div className="text-center">
+          <div className="text-center p-4 bg-white shadow-md rounded-lg">
             <div className="flex justify-center">
               <span className="text-yellow-500 text-2xl">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
             </div>
