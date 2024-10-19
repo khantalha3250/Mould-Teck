@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style.css'
+import './style.css';
 
 const HeroSection = ({
   title,
@@ -11,7 +11,8 @@ const HeroSection = ({
   onSecondaryButtonClick,
   backgroundImage,
   primaryButtonLink,
-  secondaryButtonLink
+  secondaryButtonLink,
+  titleFontSize,  // New prop to control title font size
 }) => {
   return (
     <div
@@ -23,7 +24,11 @@ const HeroSection = ({
 
       {/* Content over the image */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto animate-fade-in">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+        <h1
+          className={`${
+            titleFontSize || 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl'
+          } font-bold mb-4`} // Use the passed font size or default size
+        >
           {title}
         </h1>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6">
@@ -35,18 +40,14 @@ const HeroSection = ({
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in">
             {primaryButtonText && (
               <Link to={primaryButtonLink || '/contact'} onClick={onPrimaryButtonClick}>
-                <button
-                  className="bg-yellow-500 text-black px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-yellow-600 transition duration-300"
-                >
+                <button className="bg-yellow-500 text-black px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-yellow-600 transition duration-300">
                   {primaryButtonText}
                 </button>
               </Link>
             )}
             {secondaryButtonText && (
               <Link to={secondaryButtonLink || '/services'} onClick={onSecondaryButtonClick}>
-                <button
-                  className="border border-white text-white px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-white hover:text-black transition duration-300"
-                >
+                <button className="border border-white text-white px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-white hover:text-black transition duration-300">
                   {secondaryButtonText}
                 </button>
               </Link>

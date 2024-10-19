@@ -21,7 +21,7 @@ const Home = () => {
         style={{ backgroundImage: `url('/images/plastic.jpg')` }}
       >
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent opacity-80 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent opacity-60 pointer-events-none"></div>
 
         {/* Hero Section */}
         <HomeHeroSection />
@@ -63,11 +63,14 @@ const Home = () => {
           <WhyChooseSection
             heading="WHY CHOOSE MOULD TECK?"
             subheading="Our Unique Value Proposition"
-            description="We stand out by offering unmatched value through advanced technical capabilities, extensive expertise, and dedicated partner support."
+            description="With expertise in customer solutions and advanced technology, we ensure quality assurance and on-time delivery."
             listItems={[
-              "Cutting-Edge Manufacturing Technology",
-              "Industry-Leading Expertise",
-              "Tailored Solutions for Success",
+              "Expertise and Experience customer solution",
+              "Advanced Technology",
+              "Quality Assurance",
+              "On-time Delivery",
+              "Customer Support ",
+              "Cost-Effective",
             ]}
             buttonText="Book Now"
             onButtonClick={() => console.log("Book Now clicked")}
@@ -88,15 +91,17 @@ const Home = () => {
 
         {/* Final Hero Section */}
         {/* <section className="py-16 bg-gray-50"> */}
-          <HeroSection
-            title="Start Optimizing Your Manufacturing Today"
-            subtitle="Contact us now to discover how MOULD TECK can enhance your manufacturing operations and drive success."
-            primaryButtonText="Book Now"
-            secondaryButtonText="View Services"
-            backgroundImage={bgImage1}
-            onPrimaryButtonClick={() => console.log("Book Now clicked")}
-            onSecondaryButtonClick={() => console.log("View Services clicked")}
-          />
+        <HeroSection
+          title="Take Manufacturing To Next Level With Immediate Optimization"
+          subtitle="Contact us now to discover how MOULD TECK can enhance your manufacturing operations and drive success."
+          primaryButtonText="Book Now"
+          secondaryButtonText="View Services"
+          backgroundImage={bgImage1}
+          onPrimaryButtonClick={() => console.log("Book Now clicked")}
+          onSecondaryButtonClick={() => console.log("View Services clicked")}
+          titleFontSize="text-2xl sm:text-3xl md:text-4xl lg:text-5xl" // Custom font size
+        />
+
         {/* </section> */}
 
         {/* Footer */}
