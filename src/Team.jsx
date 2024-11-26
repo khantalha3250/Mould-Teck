@@ -90,7 +90,8 @@ const Team = () => {
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
                   Abdul Karim Khan
                   </h2>
-                  <h3 className="text-gray-500 mb-3"></h3>
+                  <h3 className="text-gray-600 mb-3">Mechanical Engineer</h3>
+                  <h4 className="text-gray-500 mb-3">CEO</h4>
                   <p className="mb-4 text-gray-600">
                    With technical expertise and strategic vision, Abdul Karim is the backbone of our technological development.
                   </p>

@@ -48,7 +48,7 @@ const Home = () => {
         {/* Hero Section */}
         <section className="py-16 bg-gray-50">
           <HeroSection
-            title="UNLOCK POWER OF PRECISION MAUFACTURING"
+            title="UNLOCK POWER OF PRECISION MANUFACTURING"
             subtitle="Take your production process to the next level with our advanced manufacturing solutions tailored to meet your specific requirements."
             primaryButtonText="Book Now"
             secondaryButtonText="View Services"
