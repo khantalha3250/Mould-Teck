@@ -46,7 +46,7 @@ export default function Header() {
   </div>
   <div className="flex flex-col">
     <h1 className="text-l sm:text-xl lg:text-2xl font-extrabold text-black">
-      Mould-Teck
+      Mould Teck
     </h1>
     <p className="text-tiny sm:text-sm lg:text-base text-black font-light">
   Injection Mould Manufacturer & CNC Job Work
