@@ -58,7 +58,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-8 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white text-sm">&copy; 2024 MOULD TECK. All Rights Reserved.</p>
-          <a href="#" className="text-white text-sm hover:text-yellow-500">Privacy Policy</a>
+          <a href="#" className="text-white text-sm hover:text-gray-500">Privacy Policy</a>
         </div>
       </div>
     </footer>
