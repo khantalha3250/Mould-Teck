@@ -17,17 +17,17 @@ const AboutSection = ({
         {/* Text Content */}
         <div className="lg:w-1/2 px-4 sm:px-8">
           {subheading && (
-            <h3 className="text- text-base sm:text-lg font-semibold animate-fade-in-up">
+            <h3 className="text-gray-500 text-base sm:text-lg font-semibold animate-fade-in-up">
               {subheading}
             </h3>
           )}
           {heading && (
-            <h2 className="text-deep-blue text-3xl sm:text-4xl lg:text-5xl font-bold mt-4 animate-fade-in-up">
+            <h2 className="text-black text-3xl sm:text-4xl lg:text-5xl font-bold mt-4 animate-fade-in-up">
               {heading}
             </h2>
           )}
           {description1 && (
-            <p className="text-dark-gray mt-4 text-sm sm:text-base lg:text-lg animate-fade-in-up">
+            <p className="text-gray-700 mt-4 text-sm sm:text-base lg:text-lg animate-fade-in-up">
               {description1}
             </p>
           )}
@@ -41,7 +41,7 @@ const AboutSection = ({
           {buttonText && (
             <Link to="/about">
               <button
-                className="bg-bright-yellow text-dark-gray px-6 py-3 mt-6 rounded-lg hover:bg-yellow-600 hover:text-white transition duration-300"
+                className="bg-bright-yellow text-gray-700 px-6 py-3 mt-6 rounded-lg hover:bg-black hover:text-white transition duration-300 font-medium"
                 onClick={onButtonClick}
               >
                 {buttonText}
