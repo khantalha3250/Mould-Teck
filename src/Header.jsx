@@ -41,7 +41,7 @@ export default function Header() {
     <img
       src="/images/logo2.png"
       alt="MOULD TECK Logo"
-      className="w-[50px] h-auto object-contain"
+       className="w-10 sm:w-10 md:w-12 lg:w-16 h-auto object-contain"
     />
   </div>
   <div className="flex flex-col">
