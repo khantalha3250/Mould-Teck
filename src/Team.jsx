@@ -19,16 +19,18 @@ const Team = () => {
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="/images/cp1.png"
+                  className="flex-shrink-0 rounded-lg w-48 h-auto object-cover object-center sm:mb-0 mb-4"
+                  src="/images/Akbar.jpeg"
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
-                    Holden Caulfield
+                   Akbar Khan
                   </h2>
-                  <h3 className="text-gray-500 mb-3">UI Developer</h3>
+                  <h3 className="text-gray-600 mb-3">Mechanical Engineer</h3>
+                  <h4 className="text-gray-500 mb-3">Product Designer</h4>
+
                   <p className="mb-4 text-gray-600">
-                    Focused on crafting seamless interfaces, Holden brings clarity and beauty to every design.
+                  A creative mind passionate about bringing visions to life with aesthetic designs.
                   </p>
                   <span className="inline-flex">
                     {/* Social Icons */}
@@ -81,16 +83,16 @@ const Team = () => {
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="/images/person2.jpeg"
+                  className="flex-shrink-0 rounded-lg w-48 h-auto object-cover object-center sm:mb-0 mb-4"
+                  src="/images/AbdulKarim.jpeg"
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
-                    Alper Kamu
+                  Abdul Karim Khan
                   </h2>
-                  <h3 className="text-gray-500 mb-3">Designer</h3>
+                  <h3 className="text-gray-500 mb-3"></h3>
                   <p className="mb-4 text-gray-600">
-                    A creative mind passionate about bringing visions to life with aesthetic designs.
+                   With technical expertise and strategic vision, Abdul Karim is the backbone of our technological development.
                   </p>
                   <span className="inline-flex">
                     <a className="text-gray-500 hover:text-gray-500">
@@ -138,7 +140,7 @@ const Team = () => {
             </div>
 
             {/* Team Member 3 */}
-            <div className="p-4 lg:w-1/2">
+            {/* <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
@@ -196,15 +198,15 @@ const Team = () => {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Team Member 4 */}
-            <div className="p-4 lg:w-1/2">
+            {/* <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="/images/cp1.png"
+                  className="flex-shrink-0 rounded-lg w-48 h-auto object-cover object-center sm:mb-0 mb-4"
+                  src="/images/Akbar.jpeg"
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
@@ -257,7 +259,7 @@ const Team = () => {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
