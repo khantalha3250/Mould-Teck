@@ -28,7 +28,7 @@ const GalleryOfExcellence = () => {
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto text-center">
         {/* Title Section */}
-        <h3 className="text-yellow-500 text-lg font-semibold mb-2">
+        <h3 className="text-gray-500 text-lg font-semibold mb-2">
           Discover Our Work
         </h3>
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">

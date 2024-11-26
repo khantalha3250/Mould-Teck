@@ -6,7 +6,7 @@ const Team = () => {
       <section className="text-gray-700 body-font bg-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-4xl font-bold title-font mb-4 text-yellow-500 tracking-wider">
+            <h1 className="text-4xl font-bold title-font mb-4 text-gray-500 tracking-wider">
               OUR TEAM
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-lg text-gray-600">
@@ -26,13 +26,13 @@ const Team = () => {
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
                     Holden Caulfield
                   </h2>
-                  <h3 className="text-yellow-500 mb-3">UI Developer</h3>
+                  <h3 className="text-gray-500 mb-3">UI Developer</h3>
                   <p className="mb-4 text-gray-600">
                     Focused on crafting seamless interfaces, Holden brings clarity and beauty to every design.
                   </p>
                   <span className="inline-flex">
                     {/* Social Icons */}
-                    <a className="text-gray-500 hover:text-yellow-500">
+                    <a className="text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -45,7 +45,7 @@ const Team = () => {
                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -58,7 +58,7 @@ const Team = () => {
                         <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -88,12 +88,12 @@ const Team = () => {
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
                     Alper Kamu
                   </h2>
-                  <h3 className="text-yellow-500 mb-3">Designer</h3>
+                  <h3 className="text-gray-500 mb-3">Designer</h3>
                   <p className="mb-4 text-gray-600">
                     A creative mind passionate about bringing visions to life with aesthetic designs.
                   </p>
                   <span className="inline-flex">
-                    <a className="text-gray-500 hover:text-yellow-500">
+                    <a className="text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -106,7 +106,7 @@ const Team = () => {
                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -119,7 +119,7 @@ const Team = () => {
                         <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -149,12 +149,12 @@ const Team = () => {
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
                     Atticus Finch
                   </h2>
-                  <h3 className="text-yellow-500 mb-3">CTO</h3>
+                  <h3 className="text-gray-500 mb-3">CTO</h3>
                   <p className="mb-4 text-gray-600">
                     With technical expertise and strategic vision, Atticus is the backbone of our technological development.
                   </p>
                   <span className="inline-flex">
-                    <a className="text-gray-500 hover:text-yellow-500">
+                    <a className="text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -167,7 +167,7 @@ const Team = () => {
                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -180,7 +180,7 @@ const Team = () => {
                         <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -210,12 +210,12 @@ const Team = () => {
                   <h2 className="title-font font-semibold text-2xl text-gray-900">
                     Henry Letham
                   </h2>
-                  <h3 className="text-yellow-500 mb-3">Software Engineer</h3>
+                  <h3 className="text-gray-500 mb-3">Software Engineer</h3>
                   <p className="mb-4 text-gray-600">
                     A problem solver with a passion for developing scalable and innovative software solutions.
                   </p>
                   <span className="inline-flex">
-                    <a className="text-gray-500 hover:text-yellow-500">
+                    <a className="text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -228,7 +228,7 @@ const Team = () => {
                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -241,7 +241,7 @@ const Team = () => {
                         <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                       </svg>
                     </a>
-                    <a className="ml-2 text-gray-500 hover:text-yellow-500">
+                    <a className="ml-2 text-gray-500 hover:text-gray-500">
                       <svg
                         fill="none"
                         stroke="currentColor"

@@ -40,14 +40,14 @@ const HeroSection = ({
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in">
             {primaryButtonText && (
               <Link to={primaryButtonLink || '/contact'} onClick={onPrimaryButtonClick}>
-                <button className="bg-yellow-500 text-black px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-yellow-600 transition duration-300">
+                <button className="bg-gray-400 text-black px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-white transition duration-300">
                   {primaryButtonText}
                 </button>
               </Link>
             )}
             {secondaryButtonText && (
               <Link to={secondaryButtonLink || '/services'} onClick={onSecondaryButtonClick}>
-                <button className="border border-white text-white px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-white hover:text-black transition duration-300">
+                <button className="border border-white text-white px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-gray-400 hover:text-black transition duration-300">
                   {secondaryButtonText}
                 </button>
               </Link>

@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Left Section: Social Links and Logo */}
           <div className="flex flex-col items-center md:items-start">
             {/* Social Icons */}
-            <div className="flex space-x-4 mb-4">
+            {/* <div className="flex space-x-4 mb-4">
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-500">
                 <i className="fab fa-facebook-f text-2xl"></i>
               </a>
@@ -22,12 +22,12 @@ const Footer = () => {
               <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-500">
                 <i className="fab fa-instagram text-2xl"></i>
               </a>
-            </div>
+            </div> */}
 
             {/* Logo */}
             <div className="flex flex-col items-center md:items-start">
               <img src="/images/logo.jpg" alt="MOULD TECK Logo" className="w-24 mb-2" />
-              <p className="text-sm text-white text-center md:text-left">We make your ideas come to reality</p>
+              <p className="text-sm text-white text-center md:text-left">Injection Mould Manufacturer & CNC Job Work Services.</p>
             </div>
           </div>
 
