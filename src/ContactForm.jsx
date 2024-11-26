@@ -9,7 +9,7 @@ const ContactForm = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4 text-center">
             GET IN TOUCH
           </h2>
-          <div className="h-1 w-16 bg-green-500 mx-auto mb-8"></div>
+          <div className="h-1 w-16 bg-gray-500 mx-auto mb-8"></div>
 
           <form className="space-y-4">
             {/* First Name and Last Name */}
@@ -18,14 +18,14 @@ const ContactForm = () => {
                 <input
                   type="text"
                   placeholder="First Name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
                 />
               </div>
               <div className="w-full md:w-1/2">
                 <input
                   type="text"
                   placeholder="Last Name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
                 />
               </div>
             </div>
@@ -35,7 +35,7 @@ const ContactForm = () => {
               <input
                 type="email"
                 placeholder="Email *"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
                 required
               />
             </div>
@@ -53,7 +53,7 @@ const ContactForm = () => {
             <div>
               <textarea
                 placeholder="Your Message *"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 gray:ring-green-500"
                 rows="4"
                 required
               ></textarea>

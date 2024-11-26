@@ -60,7 +60,7 @@ const WhyChooseSection = ({
               {image1 && (
                 <div className="flex justify-center">
                   <img
-                    src={image1}
+                    src="/images/05.jpeg"
                     alt="Manufacturing Machine"
                     className="w-full h-auto max-w-[325px] object-cover rounded-lg shadow-lg transition-transform duration-500 hover:scale-105"
                   />

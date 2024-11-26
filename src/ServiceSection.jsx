@@ -1,9 +1,9 @@
-import React from 'react';
-import cnc from './assets/cnc.jpeg';
-import mold from './assets/mold.jpeg';
-import moldImg from './assets/mold-design.png';
-import plasticinjection from './assets/plastic-injection.png';
-import ServiceSectionCard from './ServiceSectionCard';
+import React from "react";
+import cnc from "./assets/cnc.jpeg";
+import mold from "./assets/mold.jpeg";
+import moldImg from "./assets/mold-design.png";
+import plasticinjection from "./assets/plastic-injection.png";
+import ServiceSectionCard from "./ServiceSectionCard";
 
 const ServiceSection = () => {
   return (
@@ -15,7 +15,8 @@ const ServiceSection = () => {
         INNOVATIVE MANUFACTURING SERVICES
       </h1>
       <p className="text-center text-gray-600 text-sm sm:text-base lg:text-lg mb-8 sm:mb-12 animate-fade-in-up">
-        Discover our comprehensive range of integrated manufacturing solutions designed to elevate your production capabilities.
+        Discover our comprehensive range of integrated manufacturing solutions
+        designed to elevate your production capabilities.
       </p>
 
       {/* Grid layout for services */}
@@ -23,21 +24,27 @@ const ServiceSection = () => {
         <ServiceSectionCard
           title="Plastic Injection Mold Production"
           description="Our capacities include reverse engineering, product, raw materials and manufacturing processes R&D and Advanced Product Quality Planning (APQP)."
-          image={plasticinjection}
+          image=""
         />
         <ServiceSectionCard
           title="Injection Mold Manufacturing"
-          description="Innovative and efficient tool design services tailored to meet client specifications."
+          description="Injection Mold Manufacturing involves creating molds used to shape molten materials, typically plastics, into specific parts or products. It offers high precision, efficiency, and repeatability for large-scale production
+."
           image={mold}
         />
         <ServiceSectionCard
           title="Custom CNC Machining"
-          description="Our seasoned team combines expertise and cutting-edge technologies to craft molds that meet and exceed your expectations."
-          image={cnc}
+          description="Custom CNC Machining refers to the process of using computer-controlled machines to produce precise and complex parts or components based on specific designs and customer requirements.
+This technology ensures high accuracy, repeatability, and versatility for
+a wide range of materials, making it ideal for industries such as aerospace, automotive, and manufacturing."
+          image="/images/22.jpeg"
         />
         <ServiceSectionCard
           title="Mold Design"
-          description="In addition to plastic injection molding, we offer integrated product assembly and sourcing of components tailored to your needs."
+          description="Mold Design is the process of creating detailed plans and
+specifications for molds used in manufacturing, ensuring
+precise shaping, durability, and efficient production of parts.
+"
           image={moldImg}
         />
       </div>

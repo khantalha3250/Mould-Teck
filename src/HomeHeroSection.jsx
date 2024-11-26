@@ -14,10 +14,10 @@ const HomeHeroSection = () => {
     <section className="flex flex-col items-center justify-center h-full text-center px-4 sm:px-8">
       {/* Responsive Text Sizes */}
       <h2 className="text-white text-lg sm:text-xl lg:text-2xl font-light">
-        Leading Plastic Injection Company
+        Innovative Plastic Moulding Company
       </h2>
       <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mt-2">
-        EMPOWERING GLOBAL <br /> MANUFACTURING SUCCESS
+        SHAPING THE FUTURE OF <br /> GLOBAL MANUFACTURING
       </h1>
       <p className="text-white text-sm sm:text-base lg:text-lg mt-4 max-w-2xl">
         Welcome to MOULD TECK – your trusted partner for exceptional

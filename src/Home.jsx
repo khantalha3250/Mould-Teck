@@ -32,11 +32,11 @@ const Home = () => {
             heading="ABOUT MOULD TECK"
             subheading="Innovative Manufacturing Solutions"
             description1="MOULD TECK, a leading injection mold manufacturer dedicated to delivering exceptional quality and innovation. With a strong focus on design, development, and production, we create high-performance molds for various industries."
-            description2="Our commitment is to provide exceptional value to OEMs, product companies, and leading brands worldwide through advanced manufacturing technologies."
+            description2="We are dedicated to delivering outstanding value to OEMs, product innovators, and global brands by leveraging cutting-edge manufacturing technologies an deep industry expertise."
             buttonText="Read More"
             onButtonClick={() => console.log("Read More clicked")}
-            image1="/images/p1.jpeg"
-            image2="/images/p2.jpeg"
+            image1="/images/01.png"
+            image2="/images/02.jpeg"
           />
         </section>
 
@@ -48,7 +48,7 @@ const Home = () => {
         {/* Hero Section */}
         <section className="py-16 bg-gray-50">
           <HeroSection
-            title="UNLOCK MANUFACTURING EXCELLENCE"
+            title="UNLOCK POWER OF PRECISION MAUFACTURING"
             subtitle="Take your production process to the next level with our advanced manufacturing solutions tailored to meet your specific requirements."
             primaryButtonText="Book Now"
             secondaryButtonText="View Services"
@@ -85,9 +85,9 @@ const Home = () => {
         </section>
 
         {/* Testimonials */}
-        <section className="py-16 bg-gray-100">
+        {/* <section className="py-16 bg-gray-100">
           <Testimonials />
-        </section>
+        </section> */}
 
         {/* Final Hero Section */}
         {/* <section className="py-16 bg-gray-50"> */}

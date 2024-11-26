@@ -5,12 +5,12 @@ const GalleryOfExcellence = () => {
   const [currentImage, setCurrentImage] = useState('');
 
   const images = [
-    '/images/gallery1.png',
-    '/images/gallery2.jpg',
-    '/images/gallery3.jpg',
-    '/images/gallery4.jpg',
-    '/images/gallery5.jpg',
-    '/images/gallery6.png',
+    '/images/07.jpeg',
+    '/images/08.jpeg',
+    '/images/09.jpeg',
+    '/images/10.jpeg',
+    '/images/11.jpeg',
+    '/images/12.jpeg',
     // Add more image paths here as needed
   ];
 
