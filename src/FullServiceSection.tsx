@@ -1,9 +1,8 @@
 import React from "react";
-import mold from "./assets/mold.jpeg";
 import ServiceSectionCard from "./ServiceSectionCard";
-import { Link } from "react-router-dom"; 
 
-const ServiceSection = () => {
+
+const FullServiceSection = () => {
   return (
     <div className="container mx-auto py-16 px-4 sm:px-8">
       {/* Section Heading */}
@@ -31,7 +30,7 @@ const ServiceSection = () => {
         <ServiceSectionCard
           title="Injection Mold Manufacturing"
           description="Injection Mold Manufacturing involves creating molds used to shape molten materials, typically plastics, into specific parts or products. It offers high precision, efficiency, and repeatability for large-scale production."
-          image={mold}
+          image="/images/mold.jpeg"
         />
         
         {/* Service Card 3 */}
@@ -47,16 +46,55 @@ const ServiceSection = () => {
           description="Mold Design is the process of creating detailed plans and specifications for molds used in manufacturing, ensuring precise shaping, durability, and efficient production of parts."
           image="/images/molddesign.png"
         />
+
+        {/* Service Card 5 */}
+        <ServiceSectionCard
+          title="3D Printing"
+          description="3D printing services create physical objects from digital designs, offering rapid prototyping, production, and customization for various industries."
+          image="/images/23.jpeg"
+        />
+        {/* Service Card 6 */}
+        <ServiceSectionCard
+          title="Plain Washer Manufacturer "
+          description="A plain washer manufacturer produces flat discs that distribute load and prevent damage in fastening applications."
+          image="/images/24.jpeg"
+        />
+   
       </div>
-      <div className="mt-8 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-      <Link to="/services" >
-            <button className="bg-black text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 transition duration-300">
-              View All Services
-            </button>
-          </Link>
+      
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 animate-fade-in-up pt-12" >
+      ALL TYPES OF FABRICATION WORKS
+      </h1>
+      <p className="text-center text-gray-600 text-sm sm:text-base lg:text-lg mb-8 sm:mb-12 animate-fade-in-up">
+      Discover our comprehensive range of integrated fabrication solutions designed to enhance your production capabilities.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8 animate-fade-in-up">
+      <ServiceSectionCard
+          title="Structural Fabrication "
+          description="
+Structural fabrication is the process of assembling steel or other materials into frameworks for construction."
+          image="/images/27.jpeg"
+        />
+        <ServiceSectionCard
+          title="Metal Fabrication "
+          description="Metal fabrication is the process of cutting, shaping, and assembling metal structures or components."
+          image="/images/25.jpeg"
+        />
+        <ServiceSectionCard
+          title="Sheet Metal Work "
+          description="
+Sheet metal work involves shaping and forming metal sheets into various components through cutting, bending, and assembling."
+          image="/images/26.jpeg"
+        />
+        <ServiceSectionCard
+          title="Industrial & Architectural Fabrication "
+          description="
+Industrial fabrication involves creating metal structures for machinery, equipment, and infrastructure, while architectural fabrication focuses on producing metal components for building design and construction."
+          image="/images/27.jpeg"
+        />
       </div>
     </div>
   );
 };
 
-export default ServiceSection;
+export default FullServiceSection;

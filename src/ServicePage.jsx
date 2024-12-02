@@ -1,8 +1,8 @@
 import React from "react";
 import HeroSection from "./HeroSection";
 import bgImage1 from "./assets/ab.png";
-import ServiceSection from "./ServiceSection";
 import Footer from "./Footer";
+import FullServiceSection from "./FullServiceSection";
 const ServicePage = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const ServicePage = () => {
         subtitle="Explore our diverse service options crafted with precision and quality for your specific plastic injection needs."
         backgroundImage={bgImage1}
       />
-      <ServiceSection/>
+      <FullServiceSection/>
       <Footer/>
     </>
   )}

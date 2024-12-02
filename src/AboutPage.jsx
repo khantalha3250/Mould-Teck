@@ -14,6 +14,7 @@ const AboutPage = () => {
         subtitle="Take your production process to the next level with our advanced manufacturing solutions tailored to meet your specific requirements."
         backgroundImage={bgImage1}
       />
+      
       <AboutSection
         heading="ABOUT MOULD TECK"
         subheading="Innovative Manufacturing Solutions"
@@ -22,8 +23,8 @@ We leverage state-of-the-art technology and a team of skilled professionals to p
 
 "
         description2="Discover how our expertise can benefit your business. Explore our services and learn more about our company."
-        image1="./images/p1.jpeg"
-        image2="./images/p2.jpeg"
+        image1="./images/01.png"
+        image2="./images/02.jpeg"
       />
       <WhyChooseSection
         heading="Our Story"

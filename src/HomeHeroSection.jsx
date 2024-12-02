@@ -14,7 +14,7 @@ const HomeHeroSection = () => {
     <section
       className="flex flex-col items-center justify-center text-center px-4 sm:px-8 h-screen bg-white relative"
       style={{
-        backgroundImage: `url('/images/plastic.jpg')`, // Adjusted the image path
+        backgroundImage: `url('/images/plastic.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -22,6 +22,17 @@ const HomeHeroSection = () => {
     >
       {/* Overlay for subtle contrast */}
       <div className="absolute inset-0 bg-white opacity-50"></div>
+
+      {/* Top-right image */}
+      <div className="absolute top-4 right-4 md:top-8 md:right-8 z-20">
+      <Link to="https://www.fiverr.com/msktools" onClick={handleBookNowClick}>
+        <img
+          src="/images/fiverr.png" // Replace with your image path
+          alt="Decorative Element"
+          className="w-14 md:w-24 lg:w-32 h-auto pt-16"
+        />
+        </Link>
+      </div>
 
       {/* Content */}
       <div className="relative z-10">

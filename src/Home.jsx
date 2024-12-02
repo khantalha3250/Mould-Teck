@@ -9,6 +9,7 @@ import bgImage1 from "./assets/bg-img.jpg";
 import Footer from "./Footer";
 import Header from "./Header";
 import HomeHeroSection from "./HomeHeroSection";
+import FiverrWidget from "./FiverrWidget";
 
 const Home = () => {
   return (
@@ -25,6 +26,8 @@ const Home = () => {
 
         {/* Hero Section */}
         <HomeHeroSection />
+     
+    
 
         {/* About Section */}
         <section className="py-16 bg-gray-100">
@@ -57,6 +60,7 @@ const Home = () => {
             onSecondaryButtonClick={() => console.log("View Services clicked")}
           />
         </section>
+      
 
         {/* Why Choose Section */}
         <section className="py-16 bg-gray-100">
